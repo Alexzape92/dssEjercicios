@@ -1,5 +1,31 @@
 # Introducción
-En este ejercicio, se ha usado el framework Spring para realizar la inyección de dependencias necesarias para eliminar los acoplamientos indeseados.
+En este ejercicio, se ha usado el framework Spring en su versión Spring-context para realizar la inyección de dependencias necesarias para eliminar los acoplamientos indeseados.
+
+# Beans
+A continuación se muestran las Beans que se han creado para este ejercicio, para el uso de Spring:
+
+[Beans.xml](knightoftheroundtable/src/main/java/Beans.xml)
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+"http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+    <bean id="QuestType" class="es.uca.dss.examples.HolyGrailQuest"/>
+    <bean id="Knight" class="es.uca.dss.examples.KnightOfTheRoundTable" scope="prototype"/>
+</beans>
+```
+Que se instancian de la siguiente manera:
+
+[KnightOfTheRoundTableTest.java](knightoftheroundtable/src/test/java/es/uca/dss/examples/KnightOfTheRoundTableTest.java)
+```java
+//Configuration
+        String KnightName = "Lancelot";
+        ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
+        Quest quest = (Quest) context.getBean("QuestType");
+        KnightOfTheRoundTable knight = (KnightOfTheRoundTable) context.getBean("Knight", KnightName, quest);
+        ((ClassPathXmlApplicationContext) context).close();
+```
 
 # Diagrama de clases
 Este es el diagrama resultante:
