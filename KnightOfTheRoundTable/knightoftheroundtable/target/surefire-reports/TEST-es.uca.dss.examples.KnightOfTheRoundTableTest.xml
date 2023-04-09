@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="es.uca.dss.exercises.CreditCardTest" time="0.046" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="es.uca.dss.examples.KnightOfTheRoundTableTest" time="0.246" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="c:\Users\Alex\Documents\DSS\dssEjercicios\CreditCardTest\creditcardtest\target\test-classes;c:\Users\Alex\Documents\DSS\dssEjercicios\CreditCardTest\creditcardtest\target\classes;C:\Users\Alex\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Alex\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="c:\Users\Alex\Documents\DSS\dssEjercicios\KnightOfTheRoundTable\knightoftheroundtable\target\test-classes;c:\Users\Alex\Documents\DSS\dssEjercicios\KnightOfTheRoundTable\knightoftheroundtable\target\classes;C:\Users\Alex\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Alex\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Alex\.m2\repository\org\springframework\spring-context\6.0.6\spring-context-6.0.6.jar;C:\Users\Alex\.m2\repository\org\springframework\spring-aop\6.0.6\spring-aop-6.0.6.jar;C:\Users\Alex\.m2\repository\org\springframework\spring-beans\6.0.6\spring-beans-6.0.6.jar;C:\Users\Alex\.m2\repository\org\springframework\spring-core\6.0.6\spring-core-6.0.6.jar;C:\Users\Alex\.m2\repository\org\springframework\spring-jcl\6.0.6\spring-jcl-6.0.6.jar;C:\Users\Alex\.m2\repository\org\springframework\spring-expression\6.0.6\spring-expression-6.0.6.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Alex\AppData\Local\Temp\surefire1752194347935437104\surefirebooter2023195751024106193.jar C:\Users\Alex\AppData\Local\Temp\surefire1752194347935437104 2023-04-06T13-30-21_738-jvmRun1 surefire4920913580048193898tmp surefire_016748733129902814698tmp"/>
+    <property name="sun.java.command" value="C:\Users\Alex\AppData\Local\Temp\surefire11333451102363553467\surefirebooter6954609843246840530.jar C:\Users\Alex\AppData\Local\Temp\surefire11333451102363553467 2023-04-09T14-13-22_275-jvmRun1 surefire3082602163361548635tmp surefire_02828590414856238561tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="c:\Users\Alex\Documents\DSS\dssEjercicios\CreditCardTest\creditcardtest\target\test-classes;c:\Users\Alex\Documents\DSS\dssEjercicios\CreditCardTest\creditcardtest\target\classes;C:\Users\Alex\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Alex\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="surefire.test.class.path" value="c:\Users\Alex\Documents\DSS\dssEjercicios\KnightOfTheRoundTable\knightoftheroundtable\target\test-classes;c:\Users\Alex\Documents\DSS\dssEjercicios\KnightOfTheRoundTable\knightoftheroundtable\target\classes;C:\Users\Alex\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Alex\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Alex\.m2\repository\org\springframework\spring-context\6.0.6\spring-context-6.0.6.jar;C:\Users\Alex\.m2\repository\org\springframework\spring-aop\6.0.6\spring-aop-6.0.6.jar;C:\Users\Alex\.m2\repository\org\springframework\spring-beans\6.0.6\spring-beans-6.0.6.jar;C:\Users\Alex\.m2\repository\org\springframework\spring-core\6.0.6\spring-core-6.0.6.jar;C:\Users\Alex\.m2\repository\org\springframework\spring-jcl\6.0.6\spring-jcl-6.0.6.jar;C:\Users\Alex\.m2\repository\org\springframework\spring-expression\6.0.6\spring-expression-6.0.6.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Alex"/>
     <property name="user.language" value="es"/>
@@ -25,12 +25,12 @@
     <property name="java.version.date" value="2022-08-18"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-18.0.2.1"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="c:\Users\Alex\Documents\DSS\dssEjercicios\CreditCardTest\creditcardtest"/>
+    <property name="basedir" value="c:\Users\Alex\Documents\DSS\dssEjercicios\KnightOfTheRoundTable\knightoftheroundtable"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Alex\AppData\Local\Temp\surefire1752194347935437104\surefirebooter2023195751024106193.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Alex\AppData\Local\Temp\surefire11333451102363553467\surefirebooter6954609843246840530.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="18.0.2.1+1-1"/>
@@ -44,7 +44,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\Alex\AppData\Local\Temp\"/>
     <property name="java.version" value="18.0.2.1"/>
-    <property name="user.dir" value="c:\Users\Alex\Documents\DSS\dssEjercicios\CreditCardTest\creditcardtest"/>
+    <property name="user.dir" value="c:\Users\Alex\Documents\DSS\dssEjercicios\KnightOfTheRoundTable\knightoftheroundtable"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -56,8 +56,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="constructorTest" classname="es.uca.dss.exercises.CreditCardTest" time="0.004"/>
-  <testcase name="makeCorrectPaymentTest" classname="es.uca.dss.exercises.CreditCardTest" time="0"/>
-  <testcase name="makeTooBigPaymentTest" classname="es.uca.dss.exercises.CreditCardTest" time="0.007"/>
-  <testcase name="makeIncorrectPaymentTest" classname="es.uca.dss.exercises.CreditCardTest" time="0"/>
+  <testcase name="knightTest" classname="es.uca.dss.examples.KnightOfTheRoundTableTest" time="0.219"/>
 </testsuite>
