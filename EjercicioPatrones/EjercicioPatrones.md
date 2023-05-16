@@ -62,3 +62,39 @@ alm(Almacen) -->>- proc(ProcesoOri): <<end>>
 proc(ProcesoOri) -->>- procesador(Procesador): <<end>>
 procesador(Procesador) -->>- System: <<end>>>
 ```
+
+## Apartado 3
+Se puede realizar el diseño propuesto utilizando el patrón de diseño `decorator`. De esta manera, cada posible formulario tendría varios decoradores, en función de si necesitan barra desplazadora, bordes, etc. Un ejemplo de diseño sería el siguiente:
+
+```mermaid
+classDiagram
+class Componente{
+    +mostrar()
+}
+class Formulario{
+    -formParams
+    +mostrar()
+}
+class DecoradorBase{
+    -envuelto
+    +DecoradorBase(c: Componente)
+    +mostrar()
+}
+class Largo{
+    +mostrar()
+    +extra()
+}
+class Borde{
+    +mostrar()
+    +extra()
+}
+
+<<interface>> Componente
+
+Componente <|-- Formulario
+Componente <|-- DecoradorBase
+DecoradorBase <|-- Largo
+DecoradorBase <|-- Borde
+
+DecoradorBase o-- Componente
+```
